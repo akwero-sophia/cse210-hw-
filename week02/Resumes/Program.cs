@@ -6,10 +6,10 @@ class Program
     {
         Job job1 = new Job
         {
-            _jobTitle = "Software Engineer",
+            _jobTitle = "Software Developer",
             _company = "Microsoft",
-            _startYear = 2019,
-            _endYear = 2022
+            _startYear = 2024,
+            _endYear = 2025
         };
 
         Job job2 = new Job
@@ -22,7 +22,7 @@ class Program
 
         Resume myResume = new Resume
         {
-            _personName = "Owen Kasule"
+            _personName = "Akwero Sophia"
         };
         myResume._jobs.Add(job1);
         myResume._jobs.Add(job2);
