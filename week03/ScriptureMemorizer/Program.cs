@@ -1,4 +1,11 @@
-  { Console.Clear();
+  using System;
+using System.Collections.Generic;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Clear();
         Console.WriteLine("Welcome to the Scripture Memorizer!");
         Console.WriteLine("Choose a scripture to memorize:");
 
