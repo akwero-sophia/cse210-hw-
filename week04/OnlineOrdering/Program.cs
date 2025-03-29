@@ -6,14 +6,14 @@ public class Program
     {
         // Create customers and their addresses
         Address address1 = new Address("123 Main St", "Kampala", "Central", "Uganda");
-        Customer customer1 = new Customer("Muwanguzi Joseph", address1);
+        Customer customer1 = new Customer("Akwero Sophia", address1);
 
         Address address2 = new Address("456 Nkrumah Ave", "Nairobi", "Nairobi County", "Kenya");
-        Customer customer2 = new Customer("Achieng Beatrice", address2);
+        Customer customer2 = new Customer(" Adhiambo Unice", address2);
 
         // Create orders
         Order order1 = new Order(customer1);
-        order1.AddProduct(new Product("MacBook Pro", 101, 1200, 1));
+        order1.AddProduct(new Product("Probook Pro", 101, 1200, 1));
         order1.AddProduct(new Product("Wireless Mouse", 102, 25, 2));
 
         Order order2 = new Order(customer2);
