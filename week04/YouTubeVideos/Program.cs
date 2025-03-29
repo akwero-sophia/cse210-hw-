@@ -6,13 +6,13 @@ public class Program
     public static void Main()
     {
         // Create videos with Ugandan authors
-        Video video1 = new Video("How to Code in C#", "Owen Kasule Muhereza", 600);
-        Video video2 = new Video("Understanding OOP Principles", "Nalwanga Miriam", 850);
-        Video video3 = new Video("Building a Website with HTML & CSS", "Mugisha David", 720);
-        Video video4 = new Video("Mastering Data Structures", "Nabirye Sarah", 1100);
+        Video video1 = new Video("How to Code in C#", "Akwero Sophia", 600);
+        Video video2 = new Video("Understanding OOP Principles", "Nambalilwa Esther", 850);
+        Video video3 = new Video("Building a Website with HTML & CSS", "Kato David", 720);
+        Video video4 = new Video("Mastering Data Structures", "Ahumuza Sarah", 1100);
 
         // Add comments to each video
-        video1.AddComment(new Comment("Katumba Brian", "This tutorial was really helpful"));
+        video1.AddComment(new Comment("Kasuli Timothy", "This tutorial was really helpful"));
         video1.AddComment(new Comment("Nansubuga Joan", "I love the way you explain things."));
         video1.AddComment(new Comment("Muwanga Peter", "Can you make a video about advanced C# topics?"));
 
